@@ -27,7 +27,7 @@ I study how models reason, use visual evidence, and generalize beyond their trai
 
 #### [Adaptive IVT-LR](https://github.com/faaiz004/Adaptive-ivtlr)
 
-Learning which image patches to select—and when to stop—during latent reasoning through reward-weighted teacher supervision.
+Learning which image patches to select, and when to stop, during latent reasoning through reward-weighted teacher supervision.
 
 <sub>Qwen2-VL · Adaptive computation · Visual grounding</sub>
 
