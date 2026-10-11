@@ -1,36 +1,104 @@
-# Faaiz Umer
+<h1 align="center">Faaiz Umer</h1>
 
-**MS Computer Science · Texas A&M University**  
-BS Computer Science · Lahore University of Management Sciences
+<p align="center">
+  <strong>MS Computer Science · Texas A&M University</strong><br>
+  LUMS Computer Science graduate
+</p>
 
-I'm interested in vision-language models, reinforcement learning, and model generalization. My work includes adaptive visual reasoning, audio deepfake detection, and language-model preference optimization.
+<p align="center">
+  Vision–Language Models &nbsp; · &nbsp; Reinforcement Learning &nbsp; · &nbsp; Generalization
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/faaiz-umer/) · [Email](mailto:faaiz004@tamu.edu)
+<p align="center">
+  <a href="https://www.linkedin.com/in/faaiz-umer/">LinkedIn</a>
+  &nbsp; / &nbsp;
+  <a href="mailto:faaiz004@tamu.edu">Email</a>
+</p>
 
-## Research & Experiments
+---
 
-| Project | Focus |
-|---------|-------|
-| [Adaptive IVT-LR](https://github.com/faaiz004/Adaptive-ivtlr) | Teacher-guided adaptive patch selection and visual-token ablations for latent reasoning with Qwen2-VL. |
-| [Audio Deepfake Generalization](https://github.com/faaiz004/audio-deepfake-generalization) | Evaluating ERM, IRM, CORAL, and GroupDRO on unseen speech generators using RawNet2. |
+I study how models reason, use visual evidence, and generalize beyond their training data. My projects span multimodal learning, language-model optimization, and software engineering.
 
-## Machine Learning Implementations
+### Research & Experiments
 
-| Project | Focus |
-|---------|-------|
-| [LLM Preference Optimization](https://github.com/faaiz004/llm-preference-optimization) | Reward modeling, supervised fine-tuning, PPO, DPO, and GRPO with SmolLM2. |
-| [SmolLM2 Vision-Language Adapter](https://github.com/faaiz004/Smollm2-VLM) | Connecting CLIP image features to SmolLM2 through a learned visual adapter and LoRA fine-tuning. |
-| [FashionMNIST DDPM](https://github.com/faaiz004/FashionMNIST-DDPM) | Image generation with a U-Net denoiser and denoising diffusion probabilistic model. |
-| [Urdu News Classification](https://github.com/faaiz004/urdu-news-classification) | Urdu text preprocessing and classification with Naive Bayes, neural networks, and KNN. |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Software Engineering
+#### [Adaptive IVT-LR](https://github.com/faaiz004/Adaptive-ivtlr)
 
-| Project | Focus |
-|---------|-------|
-| [Swipe-Fit](https://github.com/faaiz004/SWE-Project-LUMS) | Fashion discovery and virtual styling application built with React, Three.js, Express, and MongoDB. |
-| [2048](https://github.com/faaiz004/2048) | Terminal-based C++ implementation with keyboard controls and persistent high scores. |
+Learning which image patches to select—and when to stop—during latent reasoning through reward-weighted teacher supervision.
 
-## Tools
+<sub>Qwen2-VL · Adaptive computation · Visual grounding</sub>
 
-**ML:** Python · PyTorch · Hugging Face Transformers · NumPy · scikit-learn  
-**Development:** C++ · JavaScript · TypeScript · React · Node.js · Git
+</td>
+<td width="50%" valign="top">
+
+#### [Audio Deepfake Generalization](https://github.com/faaiz004/audio-deepfake-generalization)
+
+Testing whether domain-generalization objectives improve detection of audio from unseen speech generators.
+
+<sub>RawNet2 · IRM · CORAL · GroupDRO</sub>
+
+</td>
+</tr>
+</table>
+
+### Machine Learning
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [LLM Preference Optimization](https://github.com/faaiz004/llm-preference-optimization)
+
+Reward modeling and language-model optimization through custom training loops.
+
+<sub>SmolLM2 · PPO · DPO · GRPO</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [SmolLM2 Vision–Language Adapter](https://github.com/faaiz004/Smollm2-VLM)
+
+Connecting a vision encoder to a small language model for image-based question answering.
+
+<sub>CLIP · Visual connectors · LoRA</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [FashionMNIST Diffusion](https://github.com/faaiz004/FashionMNIST-DDPM)
+
+Generating images from noise with a U-Net denoiser and an implemented diffusion pipeline.
+
+<sub>DDPM · U-Net · PyTorch</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [Urdu News Classification](https://github.com/faaiz004/urdu-news-classification)
+
+A collaborative Urdu NLP project covering data collection, preprocessing, and classifier comparison.
+
+<sub>Urdu NLP · Neural networks · Text classification</sub>
+
+</td>
+</tr>
+</table>
+
+### Software Engineering
+
+**[Swipe-Fit](https://github.com/faaiz004/SWE-Project-LUMS)**  
+Fashion discovery and virtual styling with an interactive 3D mannequin.  
+<sub>React · Three.js · Express · MongoDB</sub>
+
+**[2048](https://github.com/faaiz004/2048)**  
+A terminal game with keyboard controls and persistent high scores.  
+<sub>C++</sub>
+
+---
+
+<sub>Python · PyTorch · Hugging Face · C++ · TypeScript · React · Node.js</sub>
