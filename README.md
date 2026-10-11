@@ -17,7 +17,7 @@
 
 ---
 
-I study how models reason, use visual evidence, and generalize beyond their training data. My projects span multimodal learning, language-model optimization, and software engineering.
+I study how models reason, use visual evidence, and generalize beyond their training data. My projects span multimodal learning, model interpretability, generative modeling, computer vision, and software engineering.
 
 ### Research & Experiments
 
@@ -42,12 +42,16 @@ Testing whether domain-generalization objectives improve detection of audio from
 
 </td>
 </tr>
-</table>
-
-### Machine Learning
-
-<table>
 <tr>
+<td width="50%" valign="top">
+
+#### [Grokking & Fourier Circuits](https://github.com/faaiz004/grokking_fourier_analysis)
+
+Analyzing how transformers learn modular arithmetic through Fourier representations and frequency ablations.
+
+<sub>TransformerLens · Mechanistic interpretability · Grokking</sub>
+
+</td>
 <td width="50%" valign="top">
 
 #### [LLM Preference Optimization](https://github.com/faaiz004/llm-preference-optimization)
@@ -57,6 +61,13 @@ Reward modeling and language-model optimization through custom training loops.
 <sub>SmolLM2 · PPO · DPO · GRPO</sub>
 
 </td>
+</tr>
+</table>
+
+### Machine Learning & Computer Vision
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
 #### [SmolLM2 Vision–Language Adapter](https://github.com/faaiz004/Smollm2-VLM)
@@ -64,6 +75,15 @@ Reward modeling and language-model optimization through custom training loops.
 Connecting a vision encoder to a small language model for image-based question answering.
 
 <sub>CLIP · Visual connectors · LoRA</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [Planar AR: Image & Video Overlay](https://github.com/faaiz004/planar_ar_video_overlay)
+
+Tracking a monitor and projecting images or video onto its surface using feature matching and homographies.
+
+<sub>SuperPoint · SuperGlue · OpenCV</sub>
 
 </td>
 </tr>
@@ -75,6 +95,26 @@ Connecting a vision encoder to a small language model for image-based question a
 Generating images from noise with a U-Net denoiser and an implemented diffusion pipeline.
 
 <sub>DDPM · U-Net · PyTorch</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [GAN Latent Space](https://github.com/faaiz004/gan-latent-space)
+
+Generating MNIST digits and exploring interpolation and vector arithmetic with MNIST and pretrained CelebA generators.
+
+<sub>GANs · Latent interpolation · PyTorch</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [PixelCNN on MNIST](https://github.com/faaiz004/pixel_cnn)
+
+Generating handwritten digits pixel by pixel using masked convolutions and residual blocks.
+
+<sub>PixelCNN · Autoregressive generation · PyTorch</sub>
 
 </td>
 <td width="50%" valign="top">
