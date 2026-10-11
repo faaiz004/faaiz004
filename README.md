@@ -15,90 +15,106 @@
   <a href="mailto:faaiz004@tamu.edu">Email</a>
 </p>
 
----
-
-I study how models reason, use visual evidence, and generalize beyond their training data. My projects span multimodal learning, language-model optimization, and software engineering.
-
-### Research & Experiments
-
+I study how models reason, use visual evidence, and generalize beyond their training data. My projects span multimodal learning, model interpretability, generative modeling, computer vision, and software engineering.
+Research & Experiments
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [Adaptive IVT-LR](https://github.com/faaiz004/Adaptive-ivtlr)
-
+Adaptive IVT-LR
 Learning which image patches to select, and when to stop, during latent reasoning through reward-weighted teacher supervision.
-
 <sub>Qwen2-VL · Adaptive computation · Visual grounding</sub>
-
 </td>
 <td width="50%" valign="top">
 
-#### [Audio Deepfake Generalization](https://github.com/faaiz004/audio-deepfake-generalization)
-
+Audio Deepfake Generalization
 Testing whether domain-generalization objectives improve detection of audio from unseen speech generators.
-
 <sub>RawNet2 · IRM · CORAL · GroupDRO</sub>
-
 </td>
 </tr>
 </table>
 
-### Machine Learning
-
+Language & Multimodal Learning
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [LLM Preference Optimization](https://github.com/faaiz004/llm-preference-optimization)
-
+LLM Preference Optimization
 Reward modeling and language-model optimization through custom training loops.
-
 <sub>SmolLM2 · PPO · DPO · GRPO</sub>
-
 </td>
 <td width="50%" valign="top">
 
-#### [SmolLM2 Vision–Language Adapter](https://github.com/faaiz004/Smollm2-VLM)
-
+SmolLM2 Vision–Language Adapter
 Connecting a vision encoder to a small language model for image-based question answering.
-
 <sub>CLIP · Visual connectors · LoRA</sub>
-
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" width="100%" valign="top">
 
-#### [FashionMNIST Diffusion](https://github.com/faaiz004/FashionMNIST-DDPM)
-
-Generating images from noise with a U-Net denoiser and an implemented diffusion pipeline.
-
-<sub>DDPM · U-Net · PyTorch</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### [Urdu News Classification](https://github.com/faaiz004/urdu-news-classification)
-
+Urdu News Classification
 A collaborative Urdu NLP project covering data collection, preprocessing, and classifier comparison.
-
 <sub>Urdu NLP · Neural networks · Text classification</sub>
-
 </td>
 </tr>
 </table>
 
-### Software Engineering
+Generative Modeling
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[Swipe-Fit](https://github.com/faaiz004/SWE-Project-LUMS)**  
-Fashion discovery and virtual styling with an interactive 3D mannequin.  
+FashionMNIST Diffusion
+Generating images from noise with a U-Net denoiser and an implemented diffusion pipeline.
+<sub>DDPM · U-Net · PyTorch</sub>
+</td>
+<td width="50%" valign="top">
+
+GAN Latent Space
+Generating MNIST digits and exploring interpolation and vector arithmetic with MNIST and pretrained CelebA generators.
+<sub>GANs · Latent interpolation · PyTorch</sub>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" valign="top">
+
+PixelCNN on MNIST
+Generating handwritten digits pixel by pixel using masked convolutions and residual blocks.
+<sub>PixelCNN · Autoregressive generation · PyTorch</sub>
+</td>
+</tr>
+</table>
+
+Computer Vision
+<table>
+<tr>
+<td colspan="2" width="100%" valign="top">
+
+Planar AR: Image & Video Overlay
+Tracking a monitor and projecting images or video onto its surface using feature matching and homographies.
+<sub>SuperPoint · SuperGlue · OpenCV</sub>
+</td>
+</tr>
+</table>
+
+Mechanistic Interpretability
+<table>
+<tr>
+<td colspan="2" width="100%" valign="top">
+
+Grokking & Fourier Circuits
+Analyzing how transformers learn modular arithmetic through Fourier representations and frequency ablations.
+<sub>TransformerLens · Mechanistic interpretability · Grokking</sub>
+</td>
+</tr>
+</table>
+
+Software Engineering
+Swipe-Fit
+Fashion discovery and virtual styling with an interactive 3D mannequin.
 <sub>React · Three.js · Express · MongoDB</sub>
-
-**[2048](https://github.com/faaiz004/2048)**  
-A terminal game with keyboard controls and persistent high scores.  
+2048
+A terminal game with keyboard controls and persistent high scores.
 <sub>C++</sub>
-
----
-
 <sub>Python · PyTorch · Hugging Face · C++ · TypeScript · React · Node.js</sub>
