@@ -167,6 +167,17 @@
 </p>
 <p><sub>C++</sub></p>
 
+<h3>Human–Computer Interaction</h3>
+
+<h4>
+  <a href="https://github.com/faaiz004/social-link">Social Link</a>
+</h4>
+<p>
+  User research, iterative interface design, and usability testing of a communication
+  and task management platform for university societies.
+</p>
+<p><sub>UX Research · Figma · Prototyping · Usability Evaluation</sub></p>
+
 <hr>
 
 <p>
